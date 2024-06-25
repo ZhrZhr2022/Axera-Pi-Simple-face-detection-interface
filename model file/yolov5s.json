@@ -1,0 +1,37 @@
+{
+    "GENERATOR": "MaixHub",
+    "MODEL_TYPE": "MT_DET_YOLOV5",
+    "MODEL_PATH": "./model.joint",
+    "STRIDES": [
+        8,
+        16,
+        32
+    ],
+    "ANCHORS": [
+        10,
+        13,
+        16,
+        30,
+        33,
+        23,
+        30,
+        61,
+        62,
+        45,
+        59,
+        119,
+        116,
+        90,
+        156,
+        198,
+        373,
+        326
+    ],
+    "CLASS_NAMES": [
+        "LZY",
+        "ZHR"
+    ],
+    "CLASS_NUM": 2,
+    "NMS_THRESHOLD": 0.3,
+    "PROB_THRESHOLD": 0.5
+}
